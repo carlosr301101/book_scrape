@@ -1,0 +1,17 @@
+[project]
+name = "book-scrape"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4==4.12.3",
+    "fastapi==0.103.0",
+    "flake8==7.0.0",
+    "python-dotenv==1.0.1",
+    "redis==5.0.1",
+    "requests==2.31.0",
+    "selenium==4.18.1",
+    "uvicorn==0.24.0",
+    "webdriver-manager==4.0.1",
+]
